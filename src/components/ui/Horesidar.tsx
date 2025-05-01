@@ -45,7 +45,7 @@ export default function Horesidar() {
   }
   return (
     <>
-    <div className="flex flex-wrap justify-center w-full px-4">
+    <div className="flex flex-wrap justify-center w-full  ">
   <div className="wrapper relative w-full max-w-screen-xl">
     <div className="sliders flex flex-wrap">
       {sidbasrs.map((item, index) => (
@@ -54,7 +54,7 @@ export default function Horesidar() {
           className={`sider relative w-full ${index === currentIndex ? "block" : "hidden"}`}
         >
           <img
-            className="w-full h-[300px] sm:h-[400px] md:h-[500px] object-cover rounded-xl"
+            className="w-full h-[300px] sm:h-[400px] md:h-[500px] md:ml-9 object-cover "
             src={item.src}
             alt={item.alt}
           />
