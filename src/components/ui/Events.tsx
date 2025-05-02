@@ -23,11 +23,11 @@ export default function Events() {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto px-4 mt-10">
-      <h2 className="text-3xl font-bold text-center">Events</h2>
-      <div className="mx-auto my-2 w-40 h-2 rounded-full bg-gradient-to-r from-cyan-500 via-fuchsia-500 to-pink-500"></div>
+    <div className="max-w-7xl  mt-20">
+      <h2 className="text-4xl text-center">Events</h2>
+      <div className="mx-auto mt-2 w-40 h-2  rounded-full bg-gradient-to-r from-cyan-500 via-fuchsia-500 to-pink-500"></div>
 
-      <div className="flex flex-wrap justify-center gap-4 py-4">
+      <div className="flex flex-wrap justify-center mt-10 gap-7  md:ml-20">
         {events.map((event, index) => (
           <div
             key={index}

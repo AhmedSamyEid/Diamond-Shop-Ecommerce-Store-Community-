@@ -19,13 +19,13 @@ export default function Products () {
   ];
 
   return (
-    <div className="max-w-7xl ml-20 mt-30 ">
+    <div className="max-w-7xl md:ml-15 mt-30 ">
     
       <h2 className="text-3xl font-bold text-center">Products</h2>
       <div className="mx-auto my-2 w-40 h-2 rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 "></div>
 
     
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-3 gap-4 mt-6">
+      <div className="grid grid-cols-2 sm:grid-cols-3  md:grid-cols-4 lg:grid-cols-3 gap-4 mt-6">
         {products.map((product, index) => (
           <div key={index} className="bg-white p-2 rounded shadow relative">
             <img

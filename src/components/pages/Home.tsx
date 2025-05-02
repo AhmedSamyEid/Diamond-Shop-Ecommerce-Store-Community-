@@ -2,6 +2,7 @@ import Events from "../ui/Events";
 import Products from "../ui/Products";
 import Horesidar from "../ui/Horesidar";
 import Exploreelegance from "../ui/Exploreelegance";
+import AboutOurCompany from "../ui/AboutOurCompany";
 
 export default function Home() {
   return (
@@ -18,6 +19,9 @@ export default function Home() {
         </div>
         <div>
           <Events />
+        </div>
+        <div>
+          <AboutOurCompany />
         </div>
       </div>
     </>
