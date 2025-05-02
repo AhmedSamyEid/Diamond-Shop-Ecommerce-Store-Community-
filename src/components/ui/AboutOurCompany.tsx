@@ -30,7 +30,7 @@ export default function AboutOurCompany() {
             <img
               src={item.img}
               alt={item.title}
-              className="w-full md:w-[60%] h-auto object-cover"
+              className="w-full  md:w-[60%]  h-auto object-cover"
             />
             <div className="bg-neutral-900 bg-opacity-80 text-white p-6 md:w-1/2">
               <h3 className="text-6xl  mb-2">{item.title}</h3>

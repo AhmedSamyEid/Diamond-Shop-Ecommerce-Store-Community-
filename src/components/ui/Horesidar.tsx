@@ -71,7 +71,7 @@ export default function Horesidar() {
       ))}
     </div>
 
-    {/* المؤشرات */}
+
     <div className="absolute w-full bottom-5">
       <ul className="flex items-center justify-center gap-2">
         {sidbasrs.map((_, index) => (
