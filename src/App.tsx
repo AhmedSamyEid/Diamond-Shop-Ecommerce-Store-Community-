@@ -1,5 +1,6 @@
 import Home from "./components/pages/Home.tsx";
 import AboutUs from "./components/pages/AboutUs.tsx";
+import Contact from "./components/pages/Contact.tsx";
 import { BrowserRouter, Route, Routes } from "react-router";
 import PageLayout from "./components/layouts/PageLayout.tsx";
 
@@ -11,6 +12,7 @@ function App() {
           <Route element={<PageLayout />}>
             <Route path="/" element={<Home />} />
             <Route path="/aboutus" element={<AboutUs />} />
+            <Route path="/contact" element={<Contact />} />
           </Route>
         </Routes>
       </BrowserRouter>
